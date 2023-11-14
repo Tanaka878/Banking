@@ -16,10 +16,7 @@ public class Main {
         new Design();
        // new ChangePin();
         //new Bills();
-        SimpleDateFormat format = new SimpleDateFormat("HH:mm:ss");
-        LocalTime time = LocalTime.now();
-        String t = format.format(Calendar.getInstance().getTime());
-        System.out.println(t);
+
 
 
     }

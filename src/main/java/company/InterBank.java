@@ -16,7 +16,7 @@ import java.util.Calendar;
 
 public class InterBank {
 
-    static   Float amount; static Float a;     static String c;
+    static   float amount; static float a;     static String c;
     public InterBank() {
 
         JFrame frame = new JFrame("Bank To Wallet");
@@ -60,8 +60,9 @@ public class InterBank {
         JButton button = new JButton("Transfer");
         button.addActionListener(e -> {
             c= textArea.getText();
-            a = Float.valueOf(textArea1.getText());
+            a = Float.parseFloat(textArea1.getText());
             Transact();
+            frame.dispose();
 
         });
         button.setBounds(170,90,100,20);

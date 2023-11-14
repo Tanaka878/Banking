@@ -54,6 +54,7 @@ public class Bills {
             a = Float.valueOf(amountText.getText());
              c = (String) receipentBox.getSelectedItem();
              Transact();
+             frame.dispose();
        });
        frame.add(transact);
 
@@ -63,6 +64,7 @@ public class Bills {
        exitButton.addActionListener(e -> {
            frame.dispose();
            new Operation();
+
        });
 
 

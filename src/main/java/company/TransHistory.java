@@ -17,13 +17,13 @@ public class TransHistory {
         localtime.setBounds(0,0,70,70);
 //        frame.add(localtime);
 
-        String[] cols = {"1", "2", "3","4","5"};
+
         DefaultTableModel tableModel = new DefaultTableModel();
-       /* tableModel.addColumn("Lacal_Time");
+        tableModel.addColumn("Lacal_Time");
         tableModel.addColumn("Local_Date");
         tableModel.addColumn("Amount");
         tableModel.addColumn("Account_Number");
-        tableModel.addColumn("Receipent");*/
+        tableModel.addColumn("Receipent");
 
 
 
