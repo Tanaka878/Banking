@@ -9,15 +9,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //new Test();
-       // new InterBank();
-       // new TransHistory();
-	// write your code here
+        //the constructor that loads the log in page of the app
         new Design();
-       // new ChangePin();
-        //new Bills();
-
-
 
     }
 }
