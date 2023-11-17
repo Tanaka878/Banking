@@ -68,10 +68,6 @@ public class InterBank {
         button.setBounds(170,90,100,20);
         frame.add(button);
 
-
-
-
-
         frame.add(background);
         frame.setResizable(true);
         frame.setLayout(new BorderLayout());
@@ -80,7 +76,7 @@ public class InterBank {
         frame.setVisible(true);
     }
 
-    ///
+    ///method to facilitate the movement of funds from among the accounts
 
 
     public static void Transact(){
