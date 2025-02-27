@@ -1,1 +1,1 @@
-# Code that simulates the banking activities supporting paying bills, buying airtime, bank transfers among other things online. Its still work in progress!!!!
+# Code that simulates the banking activities supporting paying bills, buying airtime, bank transfers among other things online. I have decided to shift the project to a fullstack and here is the link to the hosted full-stack project : https://front-end-gray-one.vercel.app/
